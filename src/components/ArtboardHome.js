@@ -254,7 +254,7 @@ function ArtboardHome() {
               <img
                 src={ArtbordImage}
                 className="w100"
-                style={{ marginTop: "-50px" }}
+                style={{ marginTop: "0px" }}
                 alt="ImageMaker"
               />
             </NavLink>
