@@ -109,3 +109,20 @@
     height: auto;
   }
 }
+/* new Css */
+.country-name{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.d-grind{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.img-cont{
+display: flex;
+align-items: center;
+}
+
+.img-imo{
+  margin-top: 0px!important;
+}
