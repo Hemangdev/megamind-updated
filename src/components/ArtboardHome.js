@@ -346,6 +346,7 @@ function ArtboardHome() {
               <input
                 type="Phone"
                 class="form-control"
+                maxLength={10}
                 id="Phone"
                 name="Phone"
                 value={userNumber}
