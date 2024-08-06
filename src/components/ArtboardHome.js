@@ -184,7 +184,7 @@ function ArtboardHome() {
                   title="Australia"
                 />
               </NavLink>
-              <NavLink to="/country?code=New Zealand" target="_blank">
+              {/* <NavLink to="/country?code=New Zealand" target="_blank">
                 <img
                   src={Flag4}
                   className="zoom-thumbnail  w-100 Flag"
@@ -192,7 +192,7 @@ function ArtboardHome() {
                   alt="ImageMaker"
                   title="New Zealand"
                 />
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/country?code=CANADA" target="_blank">
                 <img
                   src={Flag2}
@@ -202,7 +202,7 @@ function ArtboardHome() {
                   title="Canada"
                 />
               </NavLink>
-              <NavLink to="/country?code=IRELAND" target="_blank">
+              {/* <NavLink to="/country?code=IRELAND" target="_blank">
                 <img
                   src={Flag6}
                   className="zoom-thumbnail  w-100 Flag"
@@ -210,7 +210,7 @@ function ArtboardHome() {
                   alt="ImageMaker"
                   title="Ireland"
                 />
-              </NavLink>
+              </NavLink> */}
               {/* <NavLink> <img src={ArtbordImage} className="w-100 Flag" style={{ marginTop: '-50px' }} alt="ImageMaker" /></NavLink> */}
             </div>
             <button
