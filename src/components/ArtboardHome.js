@@ -137,7 +137,7 @@ function ArtboardHome() {
 
       <Container id="top" className="Bg-Home" fluid>
         <Row className="py-5" style={{ width: "80%", margin: "auto" }} id="enquiry">
-          <Col sm={12} md={4}>
+          <Col sm={12} md={5}>
             <h2 className="text-left display-8 fw-light text-black">
               {" Your Study  "}
               <br /> {"Abroad Expert"}
@@ -147,43 +147,43 @@ function ArtboardHome() {
                 " The largest Personalised student Counselling Study Abroad Platform in the World. Obsessed with Student Success. "
               }
             </p>
-            <div className="d-flex pt-5 pb-4 ">
+            <div className="d-grind">
+              <div className="img-cont">
               <NavLink to="/country?code=UK" target="_blank">
                 <img
                   src={Flag0}
-                  className=" zoom-thumbnail w-100 Flag"
-                  style={{ marginTop: "-50px" }}
+                  className="img-imo zoom-thumbnail w-60 Flag"
+                  // style={{ marginTop: "-50px" }}
                   alt="ImageMaker"
                   title="United Kingdom"
                 />
               </NavLink>
+              <h2 className="country-name">United Kingdom</h2>
+              </div>
+              <div className="img-cont">
               <NavLink to="/country?code=USA" target="_blank">
                 <img
                   src={Flag1}
-                  className="zoom-thumbnail  w-100 Flag"
-                  style={{ marginTop: "-50px" }}
+                  className="img-imo zoom-thumbnail  w-60 Flag"
+                  // style={{ marginTop: "-50px" }}
                   alt="ImageMaker"
                   title=" United States of America"
                 />
               </NavLink>
+              <h2 className="country-name">United States</h2>
+              </div>
+              <div className="img-cont">
               <NavLink to="/country?code=GERMANY" target="_blank">
                 <img
                   src={Flag3}
-                  className="zoom-thumbnail  w-100 Flag"
-                  style={{ marginTop: "-50px" }}
+                  className="img-imo zoom-thumbnail  w-60 Flag"
+                  // style={{ marginTop: "-50px" }}
                   alt="ImageMaker"
                   title="Germany"
                 />
               </NavLink>
-              <NavLink to="/country?code=Australia" target="_blank">
-                <img
-                  src={Flag5}
-                  className="zoom-thumbnail  w-100 Flag"
-                  style={{ marginTop: "-50px" }}
-                  alt="ImageMaker"
-                  title="Australia"
-                />
-              </NavLink>
+              <h2 className="country-name">Germany</h2>
+              </div>
               {/* <NavLink to="/country?code=New Zealand" target="_blank">
                 <img
                   src={Flag4}
@@ -193,15 +193,7 @@ function ArtboardHome() {
                   title="New Zealand"
                 />
               </NavLink> */}
-              <NavLink to="/country?code=CANADA" target="_blank">
-                <img
-                  src={Flag2}
-                  className="zoom-thumbnail  w-100 Flag"
-                  style={{ marginTop: "-50px" }}
-                  alt="ImageMaker"
-                  title="Canada"
-                />
-              </NavLink>
+              
               {/* <NavLink to="/country?code=IRELAND" target="_blank">
                 <img
                   src={Flag6}
@@ -212,6 +204,39 @@ function ArtboardHome() {
                 />
               </NavLink> */}
               {/* <NavLink> <img src={ArtbordImage} className="w-100 Flag" style={{ marginTop: '-50px' }} alt="ImageMaker" /></NavLink> */}
+            </div>
+
+            <div className="d-grind">
+            <div className="img-cont">
+           
+            <NavLink to="/country?code=CANADA" target="_blank">
+                <img
+                  src={Flag2}
+                  className="img-imo zoom-thumbnail  w-60 Flag"
+                  // style={{ marginTop: "-50px" }}
+                  alt="ImageMaker"
+                  title="Canada"
+                />
+              </NavLink>
+           
+              <div>
+              <h2 className="country-name">Canada</h2>
+              </div>
+              </div>
+              <div className="img-cont">
+              <NavLink to="/country?code=Australia" target="_blank">
+                <img
+                  src={Flag5}
+                  className="img-imo zoom-thumbnail  w-60 Flag"
+                  // style={{ marginTop: "-50px" }}
+                  alt="ImageMaker"
+                  title="Australia"
+                />
+
+              </NavLink>
+              <h2 className="country-name">Australia</h2>
+              </div>
+
             </div>
             <button
               type="submit"
@@ -224,7 +249,7 @@ function ArtboardHome() {
 
           </Col>
 
-          <Col sm={12} md={4}>
+          <Col sm={12} md={3}>
             <NavLink>
               <img
                 src={ArtbordImage}
