@@ -149,6 +149,7 @@ function ArtboardHome() {
             </p>
             <div className="d-grind">
               <div className="img-cont">
+              <div class="img-wim">
               <NavLink to="/country?code=UK" target="_blank">
                 <img
                   src={Flag0}
@@ -158,9 +159,11 @@ function ArtboardHome() {
                   title="United Kingdom"
                 />
               </NavLink>
-              <h2 className="country-name">United Kingdom</h2>
+              </div>
+              <h2 className="country-name">UK</h2>
               </div>
               <div className="img-cont">
+              <div class="img-wim">
               <NavLink to="/country?code=USA" target="_blank">
                 <img
                   src={Flag1}
@@ -170,9 +173,11 @@ function ArtboardHome() {
                   title=" United States of America"
                 />
               </NavLink>
-              <h2 className="country-name">United States</h2>
+              </div>
+              <h2 className="country-name">USA</h2>
               </div>
               <div className="img-cont">
+              <div class="img-wim">
               <NavLink to="/country?code=GERMANY" target="_blank">
                 <img
                   src={Flag3}
@@ -182,6 +187,7 @@ function ArtboardHome() {
                   title="Germany"
                 />
               </NavLink>
+              </div>
               <h2 className="country-name">Germany</h2>
               </div>
               {/* <NavLink to="/country?code=New Zealand" target="_blank">
@@ -208,8 +214,8 @@ function ArtboardHome() {
 
             <div className="d-grind">
             <div className="img-cont">
-           
-            <NavLink to="/country?code=CANADA" target="_blank">
+            <div class="img-wim">
+            <NavLink to="/country?code=CANADA" target="_blank" className="width-img-fleg">
                 <img
                   src={Flag2}
                   className="img-imo zoom-thumbnail  w-60 Flag"
@@ -218,12 +224,13 @@ function ArtboardHome() {
                   title="Canada"
                 />
               </NavLink>
-           
-              <div>
-              <h2 className="country-name">Canada</h2>
               </div>
+              
+              <h2 className="country-name">Canada</h2>
+             
               </div>
               <div className="img-cont">
+              <div class="img-wim">
               <NavLink to="/country?code=Australia" target="_blank">
                 <img
                   src={Flag5}
@@ -234,6 +241,7 @@ function ArtboardHome() {
                 />
 
               </NavLink>
+              </div>
               <h2 className="country-name">Australia</h2>
               </div>
 
